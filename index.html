@@ -3,106 +3,164 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Yokota Odontologia — Clínica Premium</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Yokota Odontologia | Clínica Odontológica na Vila Matilde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <div class="brand">Yokota Odontologia</div>
-      <nav class="nav">
-        <a href="#services">Serviços</a>
-        <a href="#differentials">Diferenciais</a>
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span>Av. Waldemar Carlos Pereira - Vila Matilde, São Paulo</span>
+        <a href="https://wa.me/5511948007313" target="_blank" rel="noopener">(11) 94800-7313</a>
+      </div>
+    </div>
+    <div class="container nav-shell">
+      <a class="brand" href="#top" aria-label="Yokota Odontologia">
+        <span class="brand-mark">Y</span>
+        <span>Yokota Odontologia</span>
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#services">Tratamentos</a>
+        <a href="#about">Sobre</a>
         <a href="#locations">Localização</a>
-        <a href="#contact" class="cta">Agende Agora</a>
+        <a href="#contact" class="nav-cta">Agendar</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
+      <div class="hero-backdrop" aria-hidden="true"></div>
       <div class="container hero-inner">
         <div class="hero-copy">
-          <h1>Yokota &amp; Xavier Odontologia em Vila Matilde</h1>
-          <p>Odontologia sem dor, com atendimento acolhedor e agendamento rápido via WhatsApp. Atendimento especializado em Implantes, Canal, Prótese e Estética.</p>
+          <span class="eyebrow">Clínica odontológica na Zona Leste</span>
+          <h1>Atendimento odontológico humanizado em Vila Matilde</h1>
+          <p>Implantes, canal, prótese, estética e prevenção com planejamento claro, acolhimento e foco no conforto do paciente.</p>
           <div class="hero-ctas">
-            <a href="#contact" class="btn primary">Agendar por WhatsApp</a>
-            <a href="#services" class="btn ghost">Ver tratamentos</a>
+            <a href="https://wa.me/5511948007313" target="_blank" rel="noopener" class="btn primary">Agendar Consulta</a>
+            <a href="#services" class="btn secondary">Conhecer Tratamentos</a>
           </div>
         </div>
-        <div class="hero-media">
-          <img src="assets/images/hero-site-1.jpg" alt="Clínica Yokota">
-        </div>
+        <aside class="hero-panel" aria-label="Resumo de atendimento">
+          <strong>Atendimento particular</strong>
+          <span>Segunda a sexta, com agendamento pelo WhatsApp</span>
+          <a href="#contact">Falar com a clínica</a>
+        </aside>
       </div>
     </section>
 
     <section id="services" class="section services">
       <div class="container">
-        <h2>Serviços</h2>
-        <div class="grid">
-          <article class="card"><h3>Ortodontia</h3><p>Ajustes de sorriso com aparelhos modernos e alinhadores personalizados.</p></article>
-          <article class="card"><h3>Implantes</h3><p>Reabilitação oral com soluções definitivas e próteses de alta precisão.</p></article>
-          <article class="card"><h3>Estética</h3><p>Facetas, clareamento e harmonização do sorriso com resultado natural.</p></article>
-          <article class="card"><h3>Clareamento</h3><p>Procedimentos seguros para um sorriso mais branco e confiante.</p></article>
+        <div class="section-heading">
+          <span class="eyebrow">Tratamentos</span>
+          <h2>Cuidado completo para a saúde e estética do seu sorriso</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="card-icon">01</span>
+            <h3>Odontologia Preventiva</h3>
+            <p>Limpeza, avaliação, remoção de tártaro e acompanhamento para evitar tratamentos mais complexos.</p>
+          </article>
+          <article class="service-card">
+            <span class="card-icon">02</span>
+            <h3>Implantes Dentários</h3>
+            <p>Reabilitação oral planejada para devolver mastigação, segurança e naturalidade ao sorriso.</p>
+          </article>
+          <article class="service-card">
+            <span class="card-icon">03</span>
+            <h3>Tratamento de Canal</h3>
+            <p>Endodontia com abordagem cuidadosa para aliviar dor, tratar infecções e preservar dentes.</p>
+          </article>
+          <article class="service-card">
+            <span class="card-icon">04</span>
+            <h3>Estética Dental</h3>
+            <p>Clareamento, facetas e soluções estéticas com resultado harmônico e planejamento personalizado.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="differentials" class="section differentials">
-      <div class="container">
-        <h2>Diferenciais</h2>
-        <ul class="diff-list">
-          <li>Tecnologia de ponta em cada tratamento</li>
-          <li>Profissionais altamente capacitados</li>
-          <li>Ambiente acolhedor e humanizado</li>
-          <li>Condições especiais de pagamento</li>
-        </ul>
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="assets/images/hero-site-1.jpg" alt="Ambiente da Yokota Odontologia">
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">Nossa clínica</span>
+          <h2>Uma experiência mais tranquila do primeiro contato ao pós-tratamento</h2>
+          <p>A Yokota Odontologia combina atendimento próximo, explicações claras e tratamentos personalizados para pacientes da Vila Matilde, Tatuapé, Penha, Carrão e região.</p>
+          <div class="feature-list">
+            <span>Tecnologia em diagnóstico e planejamento</span>
+            <span>Equipe especializada em múltiplas áreas</span>
+            <span>Ambiente acolhedor e atendimento sem pressa</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="social-proof" class="section social-proof">
-      <div class="container">
-        <h2>Depoimentos</h2>
-        <div class="testimonials">
-          <blockquote>"Atendimento impecável e resultado além do esperado." — Paciente</blockquote>
-          <blockquote>"Equipe atenciosa e tecnologia de primeira." — Paciente</blockquote>
-        </div>
+    <section class="section proof">
+      <div class="container proof-grid">
+        <article>
+          <strong>Atendimento humanizado</strong>
+          <p>Escuta ativa e orientação clara para reduzir ansiedade antes do tratamento.</p>
+        </article>
+        <article>
+          <strong>Planejamento individual</strong>
+          <p>Cada caso recebe indicação, orçamento e sequência de cuidado sob medida.</p>
+        </article>
+        <article>
+          <strong>Fácil acesso</strong>
+          <p>Unidade na Vila Matilde, próxima a regiões importantes da Zona Leste.</p>
+        </article>
       </div>
     </section>
 
     <section id="locations" class="section locations">
       <div class="container">
-        <h2>Localização</h2>
-        <div class="map-frame">
-          <iframe src="https://www.google.com/maps?q=-23.5417944,-46.5231884&z=17&output=embed" title="Mapa Yokota" loading="lazy"></iframe>
+        <div class="section-heading">
+          <span class="eyebrow">Onde estamos</span>
+          <h2>Yokota Odontologia na Vila Matilde</h2>
         </div>
-        <div class="addresses">
-          <div class="address-card"><strong>Unidade Principal</strong><p>Avenida Waldemar Carlos Pereira, Vila Matilde, São Paulo - SP</p><p>Perto do Metrô Vila Matilde, Tatuapé, Penha e Carrão.</p></div>
+        <div class="location-grid">
+          <div class="map-frame">
+            <iframe src="https://www.google.com/maps?q=-23.5417944,-46.5231884&z=17&output=embed" title="Mapa Yokota Odontologia" loading="lazy"></iframe>
+          </div>
+          <div class="location-card">
+            <h3>Unidade Principal</h3>
+            <p>Avenida Waldemar Carlos Pereira, Vila Matilde, São Paulo - SP</p>
+            <p>Perto do Metrô Vila Matilde, Tatuapé, Penha e Carrão.</p>
+            <a href="https://wa.me/5511948007313" target="_blank" rel="noopener" class="btn primary">Chamar no WhatsApp</a>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="contact" class="section contact">
-      <div class="container">
-        <h2>Agende sua consulta</h2>
-        <p>Marque sua avaliação em Vila Matilde pelo WhatsApp ou informe seus dados abaixo.</p>
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">Fale conosco</span>
+          <h2>Agende sua avaliação</h2>
+          <p>Envie seus dados ou fale direto pelo WhatsApp para consultar horários disponíveis.</p>
+          <div class="contact-info">
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511948007313" target="_blank" rel="noopener">+55 11 94800-7313</a></p>
+            <p><strong>Telefone fixo:</strong> (11) 4175-2827</p>
+          </div>
+        </div>
         <form class="form" action="#" method="post">
           <div class="field"><input type="text" name="name" placeholder="Seu nome" required></div>
           <div class="field"><input type="tel" name="phone" placeholder="Telefone/WhatsApp" required></div>
-          <div class="field"><input type="email" name="email" placeholder="Email (opcional)"></div>
+          <div class="field"><input type="email" name="email" placeholder="E-mail (opcional)"></div>
           <div class="field"><textarea name="message" placeholder="Mensagem (opcional)"></textarea></div>
-          <div class="actions"><button class="btn primary" type="submit">Enviar pedido de agendamento</button></div>
+          <button class="btn primary" type="submit">Enviar pedido de agendamento</button>
         </form>
-        <div class="contact-info">
-          <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511948007313" target="_blank">+55 11 94800-7313</a></p>
-          <p><strong>Telefone Fixo:</strong> (11) 4175-2827</p>
-        </div>
       </div>
     </section>
   </main>
 
-  <a class="whatsapp-float" href="https://wa.me/5511948007313" target="_blank" aria-label="WhatsApp">Agende via WhatsApp</a>
+  <a class="whatsapp-float" href="https://wa.me/5511948007313" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">WhatsApp</a>
 
   <script src="js/script.js"></script>
 </body>
